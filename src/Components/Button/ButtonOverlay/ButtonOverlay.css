@@ -1,0 +1,56 @@
+.button-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: auto;
+    height: 32px;
+
+    padding: 16px 24px;
+
+    border-radius: 7px;
+    border: none;
+}
+
+.button-overlay .text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: auto;
+}
+
+.button-blue {
+    background-color: #116ACC;
+    color: white;
+}
+
+.button-red {
+    background-color: #FD4E5D;
+    color: white;
+}
+
+.button-blue,
+.button-red {
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    cursor: pointer;
+}
+
+.button-blue:hover {
+    background-color: #2E7DD9;
+}
+
+.button-red:hover {
+    background-color: #FF6B74;
+}
+
+.button-blue:active {
+    background-color: #0E57A3;
+    transform: scale(0.98);
+}
+
+.button-red:active {
+    background-color: #D93B46;
+    transform: scale(0.98);
+}

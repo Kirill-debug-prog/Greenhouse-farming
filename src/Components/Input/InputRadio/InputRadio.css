@@ -1,0 +1,31 @@
+.container-radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: auto;
+    height: 30px;
+
+    column-gap: 8px;
+    padding: 0;
+}
+
+.label-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.radio-input {
+    width: 30px;
+    height: 30px;
+
+    margin-right: 8px;
+}

@@ -1,0 +1,14 @@
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+  column-gap: 10px;
+
+  background-color: white;
+}

@@ -1,0 +1,159 @@
+.main-plan {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    width: 100vw;
+    height: auto;
+}
+
+.titel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: auto;
+}
+
+.plan {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    width: 1440px;
+    height: auto;
+
+    padding-block: 10px;
+}
+
+.variant-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 92px;
+
+    column-gap: 73px;
+    padding: 10px 11px;
+}
+
+.dropdown-varient-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: auto;
+    height: auto;
+
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.name-dropdown {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #000;
+}
+
+.variant-work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    width: 251px;
+    height: 34px;
+
+    column-gap: 10px;
+    padding-block: 10px;
+}
+
+.variant-block {
+    width: 13px;
+    height: 13px;
+
+    padding-left: 10px
+}
+
+.variant_water {
+    background-color: rgba(10, 250, 30, 1)
+}
+
+.variant_fertilizer {
+    background-color: rgba(255, 152, 8, 1);
+}
+
+.variant_sowing {
+    background-color: rgba(24, 154, 253, 1);
+}
+
+.name-work {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: auto;
+
+    color: #000;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    width: 1440px;
+    height: auto;
+
+    row-gap: 10px;
+    padding-bottom: 10px;
+}
+
+/* .button-shift {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    width: 1420px;
+    height: auto;
+}
+
+.button-view {
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    transition: all 3s ease-in-out  ;
+
+}
+
+.last-month {
+    transform: rotate(180deg);
+}
+
+.last-month:hover, 
+.next-month:hover {
+    border-radius: 100%;
+    background-color: rgba(140, 137, 137, 0.2);
+}
+
+.last-month:active, 
+.next-month:active {
+    background-color: rgba(140, 137, 137, 0.5);
+} */
