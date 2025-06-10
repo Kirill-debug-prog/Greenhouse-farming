@@ -1,0 +1,6 @@
+@Greenhouse_farming_HostAddress = http://localhost:5180
+
+GET {{Greenhouse_farming_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
